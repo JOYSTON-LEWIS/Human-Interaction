@@ -10,6 +10,12 @@
         height: 100vh;
     }
 
+    .third-section {
+        display: flex;
+        width: 98.9vw;
+        height: 100vh;
+    }
+
     .header-container {
         display: flex;
         justify-content: flex-end;
@@ -55,6 +61,10 @@
         height: 3px;
         background: white;
         cursor: pointer;
+    }
+
+    .ham-menu-btn-line.scrolled {
+        background-color: red;
     }
 
     .human-btn {
@@ -195,6 +205,90 @@
     .second-inner-text-container-button:hover{
         background-color: rgb(206, 19, 19) !important;
     }
+
+
+    .third-image-container {
+        width: 60%;
+        height: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .third-text-container {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .third-inner-text-container {
+        width: 68.63%;
+        height: 75.5%;
+    }
+
+    .third-inner-text-container-title {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 900;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding-bottom: 16px;
+        font-family: Muli;
+    }
+
+    .third-inner-text-container-description {
+        color: #000000;
+        font-size: 48px;
+        line-height: 1.1;
+        font-weight: 900;
+        letter-spacing: 0;
+        font-family: Muli;
+    }
+
+    .third-inner-text-container-content {
+        font-size: 18px;
+        line-height: 1.8;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+        font-family: Muli;
+        margin-top: 0.5rem;
+    }
+
+    .third-second-paragragh{
+        margin-top: 2rem;
+    }
+
+    .third-inner-text-container-button {
+        margin-top: 0.5rem;
+        background-color: #FB3E31;
+        font-size: 16px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 59.2px;
+        min-height: 59.2px;
+        min-width: 200px;
+        text-align: center;
+        transition: background-color .3s;
+        font-weight: 700;
+        line-height: 1.2;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;        
+    }
+
+    .third-inner-text-container-button:hover{
+        background-color: rgb(206, 19, 19) !important;
+    }
+    
 
 }
 
