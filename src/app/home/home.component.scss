@@ -16,6 +16,14 @@
         height: 100vh;
     }
 
+    .fifth-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 98.9vw;
+        height: 100vh;
+    }
+
     .header-container {
         display: flex;
         justify-content: flex-end;
@@ -102,13 +110,13 @@
     }
 
     .first-text-container {
+        font-family: Muli;
         position: absolute;
         line-height: 111%;
         color: white;
         z-index: 1;
         font-size: 72px;
         text-align: left;
-        font-family: Muli;
         letter-spacing: 0.2px;
         width: 990px;
         height: 160px;
@@ -150,22 +158,22 @@
     }
 
     .second-inner-text-container-title {
+        font-family: Muli;
         font-size: 16px;
         line-height: 1.2;
         font-weight: 900;
         letter-spacing: 1px;
         text-transform: uppercase;
         padding-bottom: 16px;
-        font-family: Muli;
     }
 
     .second-inner-text-container-description {
+        font-family: Muli;
         color: #000000;
         font-size: 48px;
         line-height: 1.1;
         font-weight: 900;
         letter-spacing: 0;
-        font-family: Muli;
 
         span {
             text-decoration: underline;
@@ -173,15 +181,16 @@
     }
 
     .second-inner-text-container-content {
+        font-family: Muli;
         font-size: 18px;
         line-height: 1.8;
         font-weight: 300;
         letter-spacing: 0.2px;
-        font-family: Muli;
         margin-top: 0.5rem;
     }
 
     .second-inner-text-container-button {
+        font-family: Muli;
         margin-top: 0.5rem;
         background-color: #FB3E31;
         font-size: 16px;
@@ -199,11 +208,11 @@
         line-height: 1.2;
         text-transform: uppercase;
         letter-spacing: 1px;
-        cursor: pointer;        
+        cursor: pointer;
     }
 
-    .second-inner-text-container-button:hover{
-        background-color: rgb(206, 19, 19) !important;
+    .second-inner-text-container-button:hover {
+        background-color: rgb(206, 19, 19);
     }
 
 
@@ -233,38 +242,39 @@
     }
 
     .third-inner-text-container-title {
+        font-family: Muli;
         font-size: 16px;
         line-height: 1.2;
         font-weight: 900;
         letter-spacing: 1px;
         text-transform: uppercase;
         padding-bottom: 16px;
-        font-family: Muli;
     }
 
     .third-inner-text-container-description {
+        font-family: Muli;
         color: #000000;
         font-size: 48px;
         line-height: 1.1;
         font-weight: 900;
         letter-spacing: 0;
-        font-family: Muli;
     }
 
     .third-inner-text-container-content {
+        font-family: Muli;
         font-size: 18px;
         line-height: 1.8;
         font-weight: 300;
         letter-spacing: 0.2px;
-        font-family: Muli;
         margin-top: 0.5rem;
     }
 
-    .third-second-paragragh{
+    .third-second-paragragh {
         margin-top: 2rem;
     }
 
     .third-inner-text-container-button {
+        font-family: Muli;
         margin-top: 0.5rem;
         background-color: #FB3E31;
         font-size: 16px;
@@ -282,13 +292,109 @@
         line-height: 1.2;
         text-transform: uppercase;
         letter-spacing: 1px;
-        cursor: pointer;        
+        cursor: pointer;
     }
 
-    .third-inner-text-container-button:hover{
-        background-color: rgb(206, 19, 19) !important;
+    .third-inner-text-container-button:hover {
+        background-color: rgb(206, 19, 19);
+    }
+
+    .fifth-miscellaneous-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 80%;
+        height: 100%;
+    }
+
+    .fifth-section-title-one{
+        font-family: Muli;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 900;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        width: 100%;
+        display: contents;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fifth-section-cards{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .fifth-section-cards-one,
+    .fifth-section-cards-two,
+    .fifth-section-cards-three {
+        font-family: Muli;
+        width: 33%;
+        span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            color: rgb(0, 0, 0);
+            font-size: 40px;
+            line-height: 1.2;
+            font-weight: 900;
+            letter-spacing: 0;
+            text-align: center;
+        }   
+    }
+
+    .fifth-section-cards-one,
+    .fifth-section-cards-two {
+        p{
+            font-size: 18px;
+            line-height: 1.8;
+            font-weight: 300;
+            letter-spacing: 0.2px;
+            text-align: center;
+        }
     }
     
+
+    .fifth-section-cards-three{
+        p{
+            font-size: 18px;
+            line-height: 1.8;
+            color: rgb(251, 62, 49);
+            font-weight: 700;
+            letter-spacing: 0.2px;
+            text-align: center;
+        }
+    }
+
+    .fifth-section-cookie-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: Muli;
+        div{
+            font-size: 24px;
+            line-height: 1.2;
+            font-weight: 900;
+            letter-spacing: 0;
+            color: rgb(0, 0, 0);
+            font-family: Muli;
+        }
+    }
+
+    .fifth-section-miscellaneous-content{
+
+    }
+
+    .fifth-section-miscellaneous-images{
+
+    }
+
 
 }
 
@@ -299,6 +405,12 @@
     }
 
     .second-section {
+        display: flex;
+        width: 98.9vw;
+        height: 100vh;
+    }
+
+    .third-section {
         display: flex;
         width: 98.9vw;
         height: 100vh;
@@ -354,6 +466,10 @@
         cursor: pointer;
     }
 
+    .ham-menu-btn-line.scrolled {
+        background-color: red;
+    }
+
     .human-btn {
         height: 81px;
         min-height: 81px;
@@ -389,13 +505,13 @@
     }
 
     .first-text-container {
+        font-family: Muli;
         position: absolute;
         line-height: 111%;
         color: white;
         z-index: 1;
         font-size: 72px;
         text-align: left;
-        font-family: Muli;
         letter-spacing: 0.2px;
         width: 990px;
         height: 160px;
@@ -437,38 +553,38 @@
     }
 
     .second-inner-text-container-title {
+        font-family: Muli;
         font-size: 16px;
         line-height: 1.2;
         font-weight: 900;
         letter-spacing: 1px;
         text-transform: uppercase;
         padding-bottom: 16px;
-        font-family: Muli;
     }
 
     .second-inner-text-container-description {
+        font-family: Muli;
         color: #000000;
         font-size: 48px;
         line-height: 1.1;
         font-weight: 900;
         letter-spacing: 0;
-        font-family: Muli;
-
         span {
             text-decoration: underline;
         }
     }
 
     .second-inner-text-container-content {
+        font-family: Muli;
         font-size: 18px;
         line-height: 1.8;
         font-weight: 300;
         letter-spacing: 0.2px;
-        font-family: Muli;
         margin-top: 0.5rem;
     }
 
     .second-inner-text-container-button {
+        font-family: Muli;
         margin-top: 0.5rem;
         background-color: #FB3E31;
         font-size: 16px;
@@ -486,10 +602,94 @@
         line-height: 1.2;
         text-transform: uppercase;
         letter-spacing: 1px;
-        cursor: pointer;        
+        cursor: pointer;
     }
 
-    .second-inner-text-container-button:hover{
-        background-color: rgb(206, 19, 19) !important;
+    .second-inner-text-container-button:hover {
+        background-color: rgb(206, 19, 19);
     }
+
+    .third-image-container {
+        width: 60%;
+        height: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .third-text-container {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .third-inner-text-container {
+        width: 68.63%;
+        height: 75.5%;
+    }
+
+    .third-inner-text-container-title {
+        font-family: Muli;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 900;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding-bottom: 16px;
+    }
+
+    .third-inner-text-container-description {
+        font-family: Muli;
+        color: #000000;
+        font-size: 48px;
+        line-height: 1.1;
+        font-weight: 900;
+        letter-spacing: 0;
+    }
+
+    .third-inner-text-container-content {
+        font-family: Muli;
+        font-size: 18px;
+        line-height: 1.8;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+        margin-top: 0.5rem;
+    }
+
+    .third-second-paragragh {
+        margin-top: 2rem;
+    }
+
+    .third-inner-text-container-button {
+        font-family: Muli;
+        margin-top: 0.5rem;
+        background-color: #FB3E31;
+        font-size: 16px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 59.2px;
+        min-height: 59.2px;
+        min-width: 200px;
+        text-align: center;
+        transition: background-color .3s;
+        font-weight: 700;
+        line-height: 1.2;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+    .third-inner-text-container-button:hover {
+        background-color: rgb(206, 19, 19);
+    }
+
 }
