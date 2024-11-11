@@ -1,32 +1,39 @@
-import { AfterViewInit, Component, ElementRef, HostListener, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
+import { APPLEVELCONSTANTS } from '../../constants/app-level-constants';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
-export class HomeComponent 
-// implements AfterViewInit 
-{
-  // isScrolled = false;
+export class HomeComponent implements OnInit {
+  uiCardsArray = APPLEVELCONSTANTS.CARDS;
 
-  // @ViewChild('secondSection', { static: false }) secondVideoContainer!: ElementRef;
+  ngOnInit(): void {
+    console.log("this.uiCardsarray", this.uiCardsArray);
+  }
 
-  // ngAfterViewInit() {
-  //   this.checkScrollPosition(); // Initial check when the view is initialized
-  // }
-
-  // @HostListener('window:scroll', [])
-  // onWindowScroll() {
-  //   console.log("called")
-  //   this.checkScrollPosition();
-  // }
-
-  // checkScrollPosition() {
-  //   console.log("called second")
-  //   if (this.secondVideoContainer?.nativeElement) {
-  //     const rect = this.secondVideoContainer.nativeElement.getBoundingClientRect();
-  //     this.isScrolled = rect.top <= window.innerHeight / 2;
-  //   }
-  // }
 }
+
+// implements AfterViewInit
+// isScrolled = false;
+
+// @ViewChild('secondSection', { static: false }) secondVideoContainer!: ElementRef;
+
+// ngAfterViewInit() {
+//   this.checkScrollPosition(); // Initial check when the view is initialized
+// }
+
+// @HostListener('window:scroll', [])
+// onWindowScroll() {
+//   console.log("called")
+//   this.checkScrollPosition();
+// }
+
+// checkScrollPosition() {
+//   console.log("called second")
+//   if (this.secondVideoContainer?.nativeElement) {
+//     const rect = this.secondVideoContainer.nativeElement.getBoundingClientRect();
+//     this.isScrolled = rect.top <= window.innerHeight / 2;
+//   }
+// }
