@@ -16,12 +16,12 @@
         height: 100vh;
     }
 
-    .fifth-section{
+    .fifth-section {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 98.9vw;
-        height: 100vh;
+        height: 155vh;
     }
 
     .header-container {
@@ -299,16 +299,16 @@
         background-color: rgb(206, 19, 19);
     }
 
-    .fifth-miscellaneous-container{
+    .fifth-miscellaneous-container {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
-        width: 80%;
+        width: 90%;
         height: 100%;
     }
 
-    .fifth-section-title-one{
+    .fifth-section-title-one {
         font-family: Muli;
         color: rgb(0, 0, 0);
         font-size: 16px;
@@ -322,7 +322,7 @@
         justify-content: center;
     }
 
-    .fifth-section-cards{
+    .fifth-section-cards {
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -333,7 +333,8 @@
     .fifth-section-cards-three {
         font-family: Muli;
         width: 33%;
-        span{
+
+        span {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -344,12 +345,12 @@
             font-weight: 900;
             letter-spacing: 0;
             text-align: center;
-        }   
+        }
     }
 
     .fifth-section-cards-one,
     .fifth-section-cards-two {
-        p{
+        p {
             font-size: 18px;
             line-height: 1.8;
             font-weight: 300;
@@ -357,45 +358,104 @@
             text-align: center;
         }
     }
-    
 
-    .fifth-section-cards-three{
-        p{
+
+    .fifth-section-cards-three {
+        p {
             font-size: 18px;
             line-height: 1.8;
             color: rgb(251, 62, 49);
             font-weight: 700;
             letter-spacing: 0.2px;
             text-align: center;
+            cursor: pointer;
         }
     }
 
-    .fifth-section-cookie-content{
+    .fifth-section-cookie-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         font-family: Muli;
-        div{
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 18px;
+        line-height: 1.8;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+
+        div {
             font-size: 24px;
             line-height: 1.2;
             font-weight: 900;
             letter-spacing: 0;
             color: rgb(0, 0, 0);
-            font-family: Muli;
+            margin-bottom: 1rem;
+        }
+
+        p span {
+            color: #FB3E31;
+            font-size: 18px;
+            line-height: 1.8;
+            font-weight: 700;
+            letter-spacing: 0.2px;
+            cursor: pointer;
         }
     }
 
-    .fifth-section-miscellaneous-content{
-
+    .fifth-section-cookie-content p span:hover {
+        color: rgb(206, 19, 19);
     }
 
-    .fifth-section-miscellaneous-images{
+    .fifth-section-miscellaneous-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
+        iframe {
+            width: 200px;
+            height: 50px;
+        }
+
+        p {
+            font-family: Muli;
+            color: rgba(0, 0, 0, 0.87);
+            font-size: 18px;
+            line-height: 1.8;
+            font-weight: 300;
+            letter-spacing: 0.2px;
+            text-align: center;
+        }
     }
 
+    .fifth-section-miscellaneous-images {
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
 
+        .fifth-section-miscellaneous-images-one {
+            img {
+                width: 102px;
+                height: 86px;
+            }
+        }
+
+        .fifth-section-miscellaneous-images-two {
+            img {
+                width: 172px;
+                height: 58px;
+            }
+        }
+
+        .fifth-section-miscellaneous-images-three {
+            img {
+                width: 214px;
+                height: 57px;
+            }
+        }
+    }
 }
 
 @media (max-width: 1023px) {
@@ -414,6 +474,14 @@
         display: flex;
         width: 98.9vw;
         height: 100vh;
+    }
+
+    .fifth-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 98.9vw;
+        height: 160vh;
     }
 
     .header-container {
@@ -569,6 +637,7 @@
         line-height: 1.1;
         font-weight: 900;
         letter-spacing: 0;
+
         span {
             text-decoration: underline;
         }
@@ -692,4 +761,161 @@
         background-color: rgb(206, 19, 19);
     }
 
+    .fifth-miscellaneous-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        height: 100%;
+    }
+
+    .fifth-section-title-one {
+        font-family: Muli;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 900;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        width: 100%;
+        display: contents;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fifth-section-cards {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .fifth-section-cards-one,
+    .fifth-section-cards-two,
+    .fifth-section-cards-three {
+        font-family: Muli;
+        width: 33%;
+
+        span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            color: rgb(0, 0, 0);
+            font-size: 40px;
+            line-height: 1.2;
+            font-weight: 900;
+            letter-spacing: 0;
+            text-align: center;
+        }
+    }
+
+    .fifth-section-cards-one,
+    .fifth-section-cards-two {
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+            font-weight: 300;
+            letter-spacing: 0.2px;
+            text-align: center;
+        }
+    }
+
+
+    .fifth-section-cards-three {
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: rgb(251, 62, 49);
+            font-weight: 700;
+            letter-spacing: 0.2px;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+
+    .fifth-section-cookie-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: Muli;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 18px;
+        line-height: 1.8;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+
+        div {
+            font-size: 24px;
+            line-height: 1.2;
+            font-weight: 900;
+            letter-spacing: 0;
+            color: rgb(0, 0, 0);
+            margin-bottom: 1rem;
+        }
+
+        p span {
+            color: #FB3E31;
+            font-size: 18px;
+            line-height: 1.8;
+            font-weight: 700;
+            letter-spacing: 0.2px;
+            cursor: pointer;
+        }
+    }
+
+    .fifth-section-cookie-content p span:hover {
+        color: rgb(206, 19, 19);
+    }
+
+    .fifth-section-miscellaneous-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        iframe {
+            width: 200px;
+            height: 50px;
+        }
+
+        p {
+            font-family: Muli;
+            color: rgba(0, 0, 0, 0.87);
+            font-size: 18px;
+            line-height: 1.8;
+            font-weight: 300;
+            letter-spacing: 0.2px;
+            text-align: center;
+        }
+    }
+
+    .fifth-section-miscellaneous-images {
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+
+        .fifth-section-miscellaneous-images-one {
+            img {
+                width: 102px;
+                height: 86px;
+            }
+        }
+
+        .fifth-section-miscellaneous-images-two {
+            img {
+                width: 172px;
+                height: 58px;
+            }
+        }
+
+        .fifth-section-miscellaneous-images-three {
+            img {
+                width: 214px;
+                height: 57px;
+            }
+        }
+    }
 }
