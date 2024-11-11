@@ -27,7 +27,7 @@
     .fifth-section {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: start;
         width: 98.9vw;
         height: 155vh;
     }
@@ -101,6 +101,10 @@
         width: 72.7%;
         text-decoration: underline;
         cursor: pointer;
+        svg {
+            width: 133px;
+            height: 39px;
+        }
     }
 
     .first-video-container {
@@ -196,7 +200,8 @@
         line-height: 1.8;
         font-weight: 300;
         letter-spacing: 0.2px;
-        margin-top: 0.5rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
     }
 
     .second-inner-text-container-button {
@@ -275,11 +280,15 @@
         line-height: 1.8;
         font-weight: 300;
         letter-spacing: 0.2px;
-        margin-top: 0.5rem;
+    }
+    .third-first-paragragh {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
     }
 
     .third-second-paragragh {
         margin-top: 2rem;
+        margin-bottom: 3rem;
     }
 
     .third-inner-text-container-button {
@@ -322,7 +331,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-
+        margin-top: 5rem;
+        margin-bottom: 3.5rem;
         div {
             color: rgb(0, 0, 0);
             font-size: 48px;
@@ -359,14 +369,13 @@
 
     .fourth-section-cards-container:nth-last-child(-n+2) {
         margin-bottom: 5rem;
-        /* Adjust this to the desired amount */
     }
 
     .fourth-section-text-and-buttons {
         font-family: Muli;
         display: flex;
         justify-content: center;
-        align-self: center;
+        align-items: center;
         color: rgb(0, 0, 0);
         font-size: 32px;
         font-weight: 800;
@@ -407,8 +416,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
         div {
+            margin-top: 9rem;
             color: rgb(0, 0, 0);
             font-size: 48px;
             line-height: 1.1;
@@ -417,7 +426,7 @@
         }
 
         span {
-            margin-top: 0.5rem;
+            margin-top: 2rem;
             color: rgba(0, 0, 0, 0.87);
             font-size: 18px;
             line-height: 1.8;
@@ -435,12 +444,32 @@
         width: 68%;
         height: 300px;
 
+        svg {
+            width:220px;
+            height:167px;
+        }
         div {
             width: 220px;
             height: 167px;
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+        .three img {
+            width: 121px;
+            height: 74px;
+        }
+        .four img {
+            width: 68px;
+            height: 101px;
+        }
+        .five img {
+            width: 178px;
+            height: 76px;
+        }
+        .six img {
+            width: 134px;
+            height: 65px;
         }
     }
 
@@ -562,6 +591,7 @@
         iframe {
             width: 200px;
             height: 50px;
+            margin-bottom: 3rem;
         }
 
         p {
@@ -579,9 +609,12 @@
         display: flex;
         width: 95%;
         justify-content: space-between;
+        margin-top: 2rem;
         margin-left: 2rem;
+       
 
         .fifth-section-miscellaneous-images-one {
+            margin-top: 1rem;
             img {
                 width: 102px;
                 height: 86px;
@@ -589,6 +622,7 @@
         }
 
         .fifth-section-miscellaneous-images-two {
+            margin-top: 1rem;
             img {
                 width: 172px;
                 height: 58px;
@@ -596,6 +630,7 @@
         }
 
         .fifth-section-miscellaneous-images-three {
+            margin-top: 1rem;
             img {
                 width: 214px;
                 height: 57px;
@@ -696,6 +731,10 @@
     .human-btn-text {
         text-decoration: underline;
         cursor: pointer;
+        svg {
+            width: 133px;
+            height: 39px;
+        }
     }
 
     .first-video-container {
@@ -788,6 +827,7 @@
         font-weight: 300;
         letter-spacing: 0.2px;
         margin-top: 0.5rem;
+        margin-bottom: 3rem;
     }
 
     .second-inner-text-container-button {
@@ -869,8 +909,14 @@
         letter-spacing: 0.2px;
     }
 
+    .third-first-paragragh {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
     .third-second-paragragh {
         margin-top: 2rem;
+        margin-bottom: 3rem;
     }
 
     .third-inner-text-container-button {
@@ -914,7 +960,8 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-
+        margin-top: 5rem;
+        margin-bottom: 3.5rem;
         div {
             color: rgb(0, 0, 0);
             font-size: 32px;
@@ -1022,12 +1069,33 @@
         justify-content: center;
         width: 100vw;
         height: 167px;
+
+        svg {
+            width:220px;
+            height:167px;
+        }
         div {
             width: 220px;
             height: 167px;
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+        .three img {
+            width: 121px;
+            height: 74px;
+        }
+        .four img {
+            width: 68px;
+            height: 101px;
+        }
+        .five img {
+            width: 178px;
+            height: 76px;
+        }
+        .six img {
+            width: 134px;
+            height: 65px;
         }
     }
 
@@ -1149,6 +1217,7 @@
         iframe {
             width: 200px;
             height: 50px;
+            margin-bottom: 3rem;
         }
 
         p {
@@ -1166,9 +1235,11 @@
         display: flex;
         width: 95%;
         justify-content: space-between;
+        margin-top: 2rem;
         margin-left: 2rem;
 
         .fifth-section-miscellaneous-images-one {
+            margin-top: 1rem;
             img {
                 width: 102px;
                 height: 86px;
@@ -1176,6 +1247,7 @@
         }
 
         .fifth-section-miscellaneous-images-two {
+            margin-top: 1rem;
             img {
                 width: 172px;
                 height: 58px;
@@ -1183,6 +1255,7 @@
         }
 
         .fifth-section-miscellaneous-images-three {
+            margin-top: 1rem;
             img {
                 width: 214px;
                 height: 57px;
