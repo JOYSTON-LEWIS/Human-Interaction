@@ -9,10 +9,7 @@ export class HomeCardComponent implements OnInit {
   @Input()
   uiCardsArrayObject: any;
 
-
   ngOnInit(): void {
-    console.log("child oninit", this.uiCardsArrayObject);
   }
-
 
 }

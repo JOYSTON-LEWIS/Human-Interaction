@@ -8,32 +8,34 @@ import { APPLEVELCONSTANTS } from '../../constants/app-level-constants';
 })
 export class HomeComponent implements OnInit {
   uiCardsArray = APPLEVELCONSTANTS.CARDS;
+  scrollPosition = 0;
+  isMobileView = false;
+  isBlack = false;
 
-  ngOnInit(): void {
-    console.log("this.uiCardsarray", this.uiCardsArray);
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    this.scrollPosition = window.scrollY;
+    this.assignClassToMenuIcon();
   }
 
+  @HostListener('window:resize', [])
+  onResize() {
+    this.isMobileView = window.innerWidth < 768;
+    this.assignClassToMenuIcon();
+  }
+
+  ngOnInit(): void {
+  }
+
+  assignClassToMenuIcon(){
+    if(this.scrollPosition >= 700 && !this.isMobileView || this.scrollPosition >= 600 && this.isMobileView)
+    {
+      this.isBlack = true;
+    }
+    else{
+      this.isBlack = false;
+    }
+  }
+  
+
 }
-
-// implements AfterViewInit
-// isScrolled = false;
-
-// @ViewChild('secondSection', { static: false }) secondVideoContainer!: ElementRef;
-
-// ngAfterViewInit() {
-//   this.checkScrollPosition(); // Initial check when the view is initialized
-// }
-
-// @HostListener('window:scroll', [])
-// onWindowScroll() {
-//   console.log("called")
-//   this.checkScrollPosition();
-// }
-
-// checkScrollPosition() {
-//   console.log("called second")
-//   if (this.secondVideoContainer?.nativeElement) {
-//     const rect = this.secondVideoContainer.nativeElement.getBoundingClientRect();
-//     this.isScrolled = rect.top <= window.innerHeight / 2;
-//   }
-// }
