@@ -1,5 +1,5 @@
 # Human-Interaction
-A mobile and desktop viewport UI replica of the following website link https://www.humaninteraction.com/ created using Angular v18 and Bootstrap 5.3.3
+A mobile and desktop viewport UI replica of the following website link https://www.humaninteraction.com/ created using Angular v18 and Bootstrap v5.3.3
 
 Website Chosen:
 1) https://www.humaninteraction.com/
