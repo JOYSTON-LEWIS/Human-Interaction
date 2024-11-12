@@ -36,5 +36,18 @@ export const APPLEVELCONSTANTS = {
             content: "Revolutionizing B2B beverage distribution with a custom mobile app",
             anchorText: "View case study"
         },
+    ],
+    SIDE_NAV_TABS: [
+        { title: "Home", routeLink: "" },
+        { title: "Approach", routeLink: "" },
+        { title: "Work", routeLink: "" },
+        { title: "People", routeLink: "" },
+        { title: "Stories", routeLink: "" },
+        { title: "Contact", routeLink: "" }
+    ],
+    SIDE_NAV_SMALLER_TABS: [
+        { title: "Careers", routeLink: "" },
+        { title: "Press", routeLink: "" },
+        { title: "Privacy", routeLink: "" }
     ]
 }

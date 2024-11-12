@@ -1,10 +1,14 @@
 <nav class="header-container">
     <div class="header-inner">
-        <div class="ham-menu-btn">
-            <div class="ham-menu-btn-inner">
+        <div class="ham-menu-btn" (click)="assignSideBarClicked()">
+            <div *ngIf="!isSideBarClicked" class="ham-menu-btn-inner">
                 <div [class]="isBlack ? 'ham-menu-btn-line-black' : 'ham-menu-btn-line'"></div>
                 <div [class]="isBlack ? 'ham-menu-btn-line-black' : 'ham-menu-btn-line'"></div>
                 <div [class]="isBlack ? 'ham-menu-btn-line-black' : 'ham-menu-btn-line'"></div>
+            </div>
+            <div *ngIf="isSideBarClicked" class="ham-menu-btn-inner-cross">
+                <div class="ham-menu-btn-cross-line-one"></div>
+                <div class="ham-menu-btn-cross-line-two"></div>
             </div>
         </div>
         <div class="human-btn">
@@ -30,7 +34,7 @@
     </div>
 </nav>
 
-<div class="first-section">
+<div *ngIf="!isSideBarClicked" class="first-section">
     <div class="first-video-container">
         <video preload="auto" autoplay loop>
             <source src="/assets/First-Human-AI-Phone-Video.mp4" type="video/mp4">
@@ -41,7 +45,7 @@
     </div>
 </div>
 
-<div class="second-section" #secondSection>
+<div *ngIf="!isSideBarClicked" class="second-section" #secondSection>
     <div class="second-video-container">
         <video preload="auto" autoplay loop>
             <source src="/assets/Second-Human-AI-Wave-Video.mp4" type="video/mp4">
@@ -65,7 +69,7 @@
     </div>
 </div>
 
-<div class="third-section">
+<div *ngIf="!isSideBarClicked" class="third-section">
     <div class="third-text-container">
         <div class="third-inner-text-container">
             <div class="third-inner-text-container-title">
@@ -91,7 +95,7 @@
     </div>
 </div>
 
-<div class="fourth-section">
+<div *ngIf="!isSideBarClicked" class="fourth-section">
     <div class="fourth-section-container">
         <div class="fourth-section-first-title-description">
             <div>Stuff we think you should read</div>
@@ -190,7 +194,7 @@
     </div>
 </div>
 
-<div class="fifth-section">
+<div *ngIf="!isSideBarClicked" class="fifth-section">
     <div class="fifth-miscellaneous-container">
         <div class="fifth-section-title-one">
             Our offices
@@ -245,3 +249,25 @@
             <br /><br /><br /><br />
         </div>
     </div>
+</div>
+
+<div *ngIf="isSideBarClicked" class="sidebar-section">
+    <div class="sidebar-left-container">
+        <div class="sidebar-left-inner">
+            <div *ngFor="let tab of sideNavTabsArray" class="sidebar-left-tabs" (click)="sideBarTabsClicked()">
+                {{ tab.title }}
+            </div>
+            <div class="sidebar-left-divider"></div>
+            <div *ngFor="let smallerTab of sideNavSmallerTabsArray" class="sidebar-left-smaller-tabs" (click)="sideBarSmallerTabsClicked()">
+                {{ smallerTab.title }}
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-right-container">
+        <div class="sidebar-video-container">
+            <video preload="auto" autoplay loop muted>
+                <source src="/assets/Seventeenth-Sidebar-Video.mp4" type="video/mp4" >
+            </video>
+        </div>
+    </div>
+</div>

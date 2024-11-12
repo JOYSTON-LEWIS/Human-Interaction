@@ -8,9 +8,12 @@ import { APPLEVELCONSTANTS } from '../../constants/app-level-constants';
 })
 export class HomeComponent implements OnInit {
   uiCardsArray = APPLEVELCONSTANTS.CARDS;
+  sideNavTabsArray = APPLEVELCONSTANTS.SIDE_NAV_TABS;
+  sideNavSmallerTabsArray = APPLEVELCONSTANTS.SIDE_NAV_SMALLER_TABS;
   scrollPosition = 0;
   isMobileView = false;
   isBlack = false;
+  isSideBarClicked = false;
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
@@ -36,6 +39,18 @@ export class HomeComponent implements OnInit {
       this.isBlack = false;
     }
   }
-  
+
+  assignSideBarClicked(){
+    console.log("clicked");
+    this.isSideBarClicked = !this.isSideBarClicked;
+  }
+
+  sideBarTabsClicked(){
+    this.assignSideBarClicked();
+  } 
+
+  sideBarSmallerTabsClicked(){
+    this.assignSideBarClicked();
+  }
 
 }
