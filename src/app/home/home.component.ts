@@ -41,7 +41,6 @@ export class HomeComponent implements OnInit {
   }
 
   assignSideBarClicked(){
-    console.log("clicked");
     this.isSideBarClicked = !this.isSideBarClicked;
   }
 
