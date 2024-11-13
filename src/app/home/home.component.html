@@ -45,7 +45,7 @@
     </div>
 </div>
 
-<div *ngIf="!isSideBarClicked" class="second-section" #secondSection>
+<div *ngIf="!isSideBarClicked" class="second-section">
     <div class="second-video-container">
         <video preload="auto" autoplay loop>
             <source src="/assets/Second-Human-AI-Wave-Video.mp4" type="video/mp4">
@@ -217,7 +217,7 @@
             </div>
         </div>
 
-        <div class="fifth-section-cookie-content">
+        <div *ngIf="!isMobileView" class="fifth-section-cookie-content">
             <div>Don't miss out on the cookie policy</div>
             <p>We have dogs. Dogs love cookies (and rolling in the dirt). That's why we have a<br />
                 <span>cookie policy</span>
@@ -226,6 +226,18 @@
                 . A lot of
                 <span>policies</span>
                 . Usually boring, but not<br /> this time. You should
+                <span>really read ours</span>. Bark!
+            </p>
+        </div>
+        <div *ngIf="isMobileView" class="fifth-section-cookie-content">
+            <div>Don't miss out on the cookie policy</div>
+            <p>We have dogs. Dogs love cookies (and rolling in the dirt). That's why we have a
+                <span>cookie policy</span>
+                . It's embedded into our
+                <span>privacy policy</span>
+                . A lot of
+                <span>policies</span>
+                . Usually boring, but not this time. You should
                 <span>really read ours</span>. Bark!
             </p>
         </div>

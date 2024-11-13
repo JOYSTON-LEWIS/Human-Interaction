@@ -711,7 +711,7 @@
         cursor: pointer;
         line-height: 1.8;
         letter-spacing: 0.4px;
-        margin-bottom: 0.6rem;
+        margin-bottom: 0.5rem;
         display: flex;
     }
 
@@ -720,8 +720,8 @@
         height: 1px;
         display: flex;
         background: #ffffff;
-        margin-top: 1.6rem;
-        margin-bottom: 3.4rem;
+        margin-top: 2.3rem;
+        margin-bottom: 3.8rem;
     }
 
     .sidebar-left-smaller-tabs {
@@ -731,7 +731,7 @@
         cursor: pointer;
         line-height: 1.8;
         letter-spacing: 0.4px;
-        margin-bottom: 0.6rem;
+        margin-bottom: 0.5rem;
     }
 
 }
@@ -755,14 +755,15 @@
         display: flex;
         justify-content: center;
         background: #F6F6F6;
-        height: 5850px;
+        height: 5650px;
+        margin-top: 5rem;
     }
 
     .fifth-section {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 1600px;
+        height: 1650px;
     }
 
     .header-container {
@@ -788,7 +789,6 @@
 
     .ham-menu-btn {
         display: flex;
-        ;
         justify-content: center;
         align-items: center;
         cursor: pointer;
@@ -804,6 +804,7 @@
         height: 22px;
         width: 20px;
         cursor: pointer;
+        margin-bottom: 2vh;
     }
 
     .ham-menu-btn-line {
@@ -847,7 +848,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            object-position: 65% 60%;
+            object-position: 63.5% 60%;
             background-repeat: no-repeat;
         }
     }
@@ -855,15 +856,16 @@
     .first-text-container {
         font-family: Muli;
         position: absolute;
-        line-height: 111%;
+        line-height: 100%;
         color: white;
         z-index: 1;
         font-size: 40px;
         text-align: left;
         letter-spacing: 0.2px;
         top: 35%;
-        left: 8%;
-        width: 80vw;
+        left: 10%;
+        width: 86vw;
+        height: 24.7vh;
         p {
             margin: 0px;
 
@@ -893,8 +895,8 @@
     }
 
     .second-inner-text-container {
-        width: 85%;
-        height: 75.5%;
+        width: 80%;
+        height: 78.5%;
     }
 
     .second-inner-text-container-title {
@@ -917,7 +919,7 @@
 
         span {
             text-decoration: underline;
-            text-decoration-thickness: 3px;
+            text-decoration-thickness: 4px;
             text-underline-offset: 3px;
         }
     }
@@ -934,7 +936,7 @@
 
     .second-inner-text-container-button {
         font-family: Muli;
-        margin-top: 0.5rem;
+        margin-top: 3.2rem;
         background-color: #FB3E31;
         font-size: 16px;
         color: white;
@@ -961,7 +963,7 @@
     .third-image-container {
         width: 100%;
         height: 100%;
-        margin-top: 2rem;
+        margin-top: 5rem;
         img {
             width: 100%;
             height: 100%;
@@ -980,7 +982,7 @@
 
     .third-inner-text-container {
         width: 82%;
-        height: 75.5%;
+        height: 78.5%;
     }
 
     .third-inner-text-container-title {
@@ -990,7 +992,7 @@
         font-weight: 900;
         letter-spacing: 1px;
         text-transform: uppercase;
-        margin-top: 1rem;
+        margin-top: 1.6rem;
         margin-bottom: 1rem;
     }
 
@@ -1023,7 +1025,7 @@
 
     .third-inner-text-container-button {
         font-family: Muli;
-        margin-top: 0.5rem;
+        margin-top: 1rem;
         background-color: #FB3E31;
         font-size: 16px;
         color: white;
@@ -1062,7 +1064,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        margin-top: 5rem;
+        margin-top: 4rem;
         margin-bottom: 3.5rem;
         div {
             color: rgb(0, 0, 0);
@@ -1070,14 +1072,15 @@
             line-height: 1.1;
             font-weight: 900;
             letter-spacing: 0;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.8rem;
         }
 
         span {
             text-align: center;
             color: rgba(0, 0, 0, 0.87);
             font-size: 20px;
-            letter-spacing: .75px;
+            letter-spacing: 0.75px;
+            line-height: 1.2;
         }
     }
 
@@ -1094,7 +1097,7 @@
         width: 97%;
         height: 603px;
         background-color: #fbfbfb;
-        margin-bottom: 6rem;
+        margin-bottom: 4rem;
     }
 
     .fourth-section-text-and-buttons {
@@ -1144,7 +1147,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 8rem;
+        margin-top: 8.8rem;
 
         div {
             color: rgb(0, 0, 0);
@@ -1155,7 +1158,7 @@
         }
 
         span {
-            margin-top: 0.5rem;
+            margin-top: 2rem;
             color: rgba(0, 0, 0, 0.87);
             font-size: 16px;
             line-height: 1.4;
@@ -1209,7 +1212,7 @@
         align-items: center;
         width: 90%;
         height: 100%;
-        margin-top: 12rem;
+        margin-top: 14.8rem;
     }
 
     .fifth-section-title-one {
@@ -1231,14 +1234,26 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
+        
     }
+
+    .fifth-section-cards-one {
+        margin-top: 3.1rem;
+    }
+
+    .fifth-section-cards-two {
+        margin-top: 2rem;
+    }
+
+    .fifth-section-cards-three {
+        margin-top: 2rem;
+    } 
 
     .fifth-section-cards-one,
     .fifth-section-cards-two,
     .fifth-section-cards-three {
         font-family: Muli;
         width: 100%;
-        margin-top: 2.5rem;
 
         span {
             display: flex;
@@ -1279,9 +1294,9 @@
     }
 
     .fifth-section-cookie-content {
-        width: 300px;
-        height: 157px;
-        margin-top: 4rem;
+        width: 71.45vw;
+        height: 11.1vh;
+        margin-top: 7.5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1290,12 +1305,12 @@
         font-family: Muli;
         color: rgba(0, 0, 0, 0.87);
         font-size: 16px;
-        line-height: 1.4;
+        line-height: 1.2;
         font-weight: 300;
         letter-spacing: 0.2px;
 
         div {
-            font-size: 24px;
+            font-size: 20px;
             line-height: 1.2;
             font-weight: 900;
             letter-spacing: 0;
@@ -1303,13 +1318,16 @@
             margin-bottom: 1rem;
         }
 
+        p {
+            font-size: 16px;
+            line-height: 1.2;
+            letter-spacing: 0.2px;
+        }
+
         p span {
             color: #FB3E31;
-            font-size: 16px;
-            line-height: 1.4;
-            font-weight: 700;
-            letter-spacing: 0.2px;
             cursor: pointer;
+            font-weight: 700;
         }
     }
 
@@ -1322,15 +1340,16 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 8rem;
+        margin-top: 10.7rem;
 
         iframe {
             width: 200px;
             height: 50px;
-            margin-bottom: 3.5rem;
+            margin-bottom: 3.7rem;
         }
 
         p {
+            width: 95.5%;
             font-family: Muli;
             color: rgba(0, 0, 0, 0.87);
             font-size: 16px;
@@ -1346,7 +1365,7 @@
         flex-direction: column;
         align-items: center;
         width: 95%;
-        margin-top: 1.5rem;
+        margin-top: 1.3rem;
 
         .fifth-section-miscellaneous-images-one {
             margin-top: 1rem;
@@ -1393,7 +1412,7 @@
         display: flex;
         flex-direction: column;
         align-content: start;
-        width: 75%;
+        width: 74%;
         height: 78%;
     }
 
@@ -1419,6 +1438,7 @@
         height: 21px;
         cursor: pointer;
         position: relative;
+        margin-bottom: 2vh;
     }
 
     .ham-menu-btn-cross-line-one {
@@ -1444,7 +1464,7 @@
         cursor: pointer;
         line-height: 1.4;
         letter-spacing: 0.4px;
-        margin-bottom: 0.6rem;
+        margin-bottom: 0.5rem;
         display: flex;
     }
 
@@ -1453,8 +1473,8 @@
         height: 1px;
         display: flex;
         background: #ffffff;
-        margin-top: 2rem;
-        margin-bottom: 2.5rem;
+        margin-top: 2.3rem;
+        margin-bottom: 3rem;
     }
 
     .sidebar-left-smaller-tabs {
@@ -1464,6 +1484,6 @@
         cursor: pointer;
         line-height: 1.4;
         letter-spacing: 0.4px;
-        margin-bottom: 0.6rem;
+        margin-bottom: 0.5rem;
     }
 }
